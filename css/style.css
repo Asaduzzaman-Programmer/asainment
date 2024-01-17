@@ -272,8 +272,23 @@
 
     .pico,
     .srilanka,
-    .bangladesh>img {
+    .bangladesh{
         width: 390px;
-        display: block;
+        grid-template-columns: repeat(1, 2fr);
+     
     }
+
+    .srilanka .able > img{
+        width: 100%;
+    }
+
+.pico, .srilanka, .bangladesh{
+    margin-left: 0;
+}
+
+   .var{
+    width: 390px;
+    
+   }
+
 }
