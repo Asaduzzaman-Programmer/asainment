@@ -93,7 +93,7 @@
 
 .tours {
     color: #131318;
-   
+
     font-family: Mulish;
     font-size: 40px;
     font-style: normal;
@@ -110,43 +110,58 @@
     line-height: 36px;
 }
 
-.destination{
+.destination {
     text-align: center;
     margin-top: 100px;
 }
 
-.chose{
+.chose {
     color: #131318;
-text-align: center;
-font-family: Mulish;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 
-.select{
+.select {
     color: rgba(19, 19, 24, 0.70);
-text-align: center;
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
 }
 
-.pico{
-   align-items: center;
-   justify-content: center;
- display: flex;
- gap: 30px;
+.pico {
+    margin-left: 350px;
+    display: grid;
+    grid-template-columns: auto 2fr;
+    gap: 25px;
 }
-.srilanka{
+
+.srilanka {
+    margin-left: 350px;
+   width: 500px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 25px;
+}
+
+
+
+.bangladesh {
+    margin-left: 350px;
+    margin-top: 10px;
+    text-align: center;
     align-items: center;
     justify-content: center;
-    margin-top: 10px;
-    
-    margin-left: 350px;
+    gap: 30px;
+    display: grid;
+    grid-template-columns: auto 2fr;
 }
 
 @media screen and (max-width: 600px) {
@@ -245,14 +260,20 @@ line-height: 26px;
         margin-left: 0;
     }
 
-    .pic{
+    .pic {
         margin-top: 20px;
         width: 100%;
     }
 
-    .destination{
+    .destination {
         text-align: center;
         margin-top: 400px;
     }
 
+    .pico,
+    .srilanka,
+    .bangladesh>img {
+        width: 390px;
+        display: block;
+    }
 }
