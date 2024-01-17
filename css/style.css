@@ -306,6 +306,21 @@
     justify-content: center;
 }
 
+.fast{
+    padding-top: 50px;
+    margin-top: 70px;
+    width: 100%;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.last{
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
 @media screen and (max-width: 600px) {
     .banner {
         margin: 0 7px;
