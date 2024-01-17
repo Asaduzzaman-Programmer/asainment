@@ -1,6 +1,5 @@
 .banner {
     margin: 0 350px;
-
 }
 
 .img {
@@ -80,7 +79,6 @@
 }
 
 .popular {
-
     display: flex;
     width: 1188px;
     height: 505px;
@@ -89,7 +87,6 @@
     align-items: center;
     justify-content: center;
 }
-
 
 .tours {
     color: #131318;
@@ -144,14 +141,12 @@
 
 .srilanka {
     margin-left: 350px;
-   width: 500px;
+    width: 500px;
     margin-top: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 25px;
+    grid-gap: 25px;
 }
-
-
 
 .bangladesh {
     margin-left: 350px;
@@ -164,17 +159,162 @@
     grid-template-columns: auto 2fr;
 }
 
+.us {
+
+    height: 300px;
+    display: flex;
+    margin: 10px 350px;
+    gap: 40px;
+    padding: 10px;
+}
+
+.hand {
+    width: 550px;
+    height: 184px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(184, 149, 110, 0.2);
+    background: rgba(251, 181, 99, 0.05);
+    padding-left: 20px;
+}
+
+.handa {
+    width: 550px;
+    height: 184px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding-left: 20px;
+}
+
+.st {
+    color: #131318;
+
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.ts {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.st,
+.ts {
+    margin-left: 22px;
+}
+
+.wcy {
+    margin-left: 650px;
+    padding-left: 20px;
+    width: 550px;
+    height: 184px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin-top: -100px;
+}
+
+.newsletterpart {
+    margin-top: 40px;
+    display: flex;
+    gap: 40px;
+    margin-left: 350px;
+}
+
+.news {
+    width: 474px;
+    height: 422px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.news {
+    padding-left: 10px;
+}
+
+.sub {
+    width: 393px;
+    height: 52px;
+    font-family: Mulish;
+    padding-left: 10px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: 0;
+    margin: 18px 20px;
+}
+
+.subon {
+    font-family: Mulish;
+    width: 410px;
+    height: 52px;
+    margin: 15px auto;
+    padding-left: 10px;
+    margin: 12px 20px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.travel {
+    position: relative;
+}
+
+.rec {
+    margin-left: 454px;
+    margin-top: -115px;
+    position: absolute;
+    width: 214.023px;
+    height: 79.268px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 10.569px;
+    background: #FF5400;
+}
+
+.travelcom {
+    font-family: Mulish;
+    color: #FFF;
+    font-size: 19px;
+    font-weight: 800;
+    text-align: center;
+    justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+
+.save {
+    font-family: Mulish;
+    margin-top: 5px;
+    color: #FFF;
+    font-weight: 800;
+    font-size: 19px;
+    text-align: center;
+    justify-content: center;
+}
+
 @media screen and (max-width: 600px) {
     .banner {
         margin: 0 7px;
-
     }
 
     .img {
         background-image: url('..//Images/img1.png');
         background-repeat: no-repeat;
         background-position: center;
-
     }
 
     .backshadow {
@@ -185,7 +325,6 @@
         flex-shrink: 0;
         border-radius: 6px;
         margin-bottom: 0;
-
     }
 
     .content {
@@ -193,7 +332,6 @@
         height: 83px;
         text-align: center;
         margin-left: 19px;
-
     }
 
     .explore-title {
@@ -272,23 +410,37 @@
 
     .pico,
     .srilanka,
-    .bangladesh{
+    .bangladesh {
         width: 390px;
         grid-template-columns: repeat(1, 2fr);
-     
     }
 
-    .srilanka .able > img{
+    .srilanka .able>img {
         width: 100%;
     }
 
-.pico, .srilanka, .bangladesh{
-    margin-left: 0;
-}
+    .pico,
+    .srilanka,
+    .bangladesh {
+        margin-left: 0;
+    }
 
-   .var{
-    width: 390px;
-    
-   }
+    .var {
+        width: 390px;
+    }
 
+    .us {
+        flex-direction: column;
+        margin-left: 5px;
+    }
+
+    .wcy {
+        margin-top: 130px;
+        margin-left: 5px;
+    }
+
+    .newsletterpart {
+        margin-left: 5px;
+        flex-direction: column;
+    }
 }
